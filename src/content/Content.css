@@ -1,0 +1,63 @@
+.curved-vertical-line {
+    position: relative;
+    width: 2px; /* Adjust the width of your vertical line */
+    height: 100px; /* Adjust the height of your vertical line */
+    background-color: #000; /* Adjust the color of your line */
+    margin: 0 auto; /* Center the line */
+  }
+  
+  .curved-vertical-line::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 2px; /* Match the width of your vertical line */
+    height: 50px; /* Adjust the height of the curved portion */
+    background-color: #000; /* Adjust the color of your line */
+    border-radius: 0 0 50% 50%; /* Create a semicircular shape */
+  }
+  .curved-vertical-line {
+    position: relative;
+    width: 2px; /* Adjust the width of your vertical line */
+    height: 100px; /* Adjust the height of your vertical line */
+    background-color: #000; /* Adjust the color of your line */
+    margin: 0 auto; /* Center the line */
+  }
+  
+  .curved-vertical-line::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 2px; /* Match the width of your vertical line */
+    height: 50px; /* Adjust the height of the curved portion */
+    background-color: #000; /* Adjust the color of your line */
+    border-radius: 0 0 50% 50%; /* Create a semicircular shape */
+  }
+  .MUHURAT{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 43px;
+      
+  }
+  .centered-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    max-width: 868px;
+    margin: 0 auto;
+}
+  
+  @media (max-width: 600px) {
+    .centered-text {
+      font-size: 1rem; 
+    }
+  }
+ 
